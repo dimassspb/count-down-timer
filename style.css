@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./damian-mccoig-2HqpqSqy0zg-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countdown-conteiner {
+    display: flex;
+
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0 3rem;
+}
+
+.countdown-el {
+text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
